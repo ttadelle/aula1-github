@@ -18,10 +18,10 @@ public class Worker {
 		
 	}
 
-	public Worker(String name, WorkerLevel level, Double basesalary, Department department) {
+	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
 		this.name = name;
 		this.level = level;
-		this.basesalary = basesalary;
+		this.baseSalary = baseSalary;
 		this.department = department;
 	}
 
@@ -42,11 +42,11 @@ public class Worker {
 	}
 
 	public Double getBasesalary() {
-		return basesalary;
+		return baseSalary;
 	}
 
-	public void setBasesalary(Double basesalary) {
-		this.basesalary = basesalary;
+	public void setBasesalary(Double baseSalary) {
+		this.baseSalary = baseSalary;
 	}
 
 	public Department getDepartment() {
