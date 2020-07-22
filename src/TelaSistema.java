@@ -6,7 +6,7 @@ import javax.swing.JPanel;
 public class TelaSistema extends JFrame 
 {
  
-	private static final long serialVersionUID = -3795302135857299849L;
+	private static final long serialVersionUID = 1L;
 
 	public TelaSistema() 
     {
