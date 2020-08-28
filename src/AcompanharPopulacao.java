@@ -14,6 +14,7 @@ public class AcompanharPopulacao {
 	static Cidade doNascimento (Cidade aCidade) {
 		Cidade minhaCidade = new Cidade();
 		minhaCidade.populacao = aCidade.populacao + 1;
-		return minhaCidade;		
+		return minhaCidade;
+		
 	}
 }
